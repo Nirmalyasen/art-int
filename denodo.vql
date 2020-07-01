@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS frb_test;
-CREATE DATABASE frb_test '';
-CONNECT DATABASE frb_test;
+DROP DATABASE IF EXISTS frb_demo;
+CREATE DATABASE frb_demo '';
+CONNECT DATABASE frb_demo;
 
 CREATE OR REPLACE FOLDER '/01 - Connectivity Layer' ;
 CREATE OR REPLACE FOLDER '/01 - connectivity layer/01 - Data Sources' ;
