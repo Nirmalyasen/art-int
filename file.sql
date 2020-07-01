@@ -1,3 +1,4 @@
 CREATE schema if not exists FRB_Schema;
 ALTER TABLE PUBLIC.FRB_EMP_DATA ADD COLUMN JOB VARCHAR(120); 
 
+
