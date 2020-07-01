@@ -1,0 +1,21 @@
+DROP DATABASE IF EXISTS my_test_drive;
+
+CREATE DATABASE my_test_drive '';
+
+CONNECT DATABASE my_test_drive;
+
+CREATE OR REPLACE FOLDER '/01 - Connectivity Layer' ;
+
+CREATE OR REPLACE FOLDER '/01 - connectivity layer/01 - Data Sources' ;
+
+CREATE OR REPLACE FOLDER '/01 - connectivity layer/02 - Base Views' ;
+
+CREATE OR REPLACE FOLDER '/02 - Integration Layer' ;
+
+CREATE OR REPLACE FOLDER '/03 - Business Entity Layer' ;
+
+CREATE OR REPLACE FOLDER '/04 - Application Layer' ;
+
+CREATE OR REPLACE FOLDER '/05 - Web Services Layer' ;
+
+CREATE OR REPLACE FOLDER '/06 - Associations' ;
